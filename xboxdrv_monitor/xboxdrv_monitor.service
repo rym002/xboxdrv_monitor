@@ -1,0 +1,11 @@
+[Unit]
+Description=xboxdrv monitor
+Wants=gentoo-local-uinput.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/xboxdrv_monitor.py
+
+
+[Install]
+WantedBy=multi-user.target
