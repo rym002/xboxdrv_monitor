@@ -1,6 +1,5 @@
-/proc_notify/MANIFEST
-/proc_notify/nb-configuration.xml
-/proc_notify/__pycache__/
-/proc_notify/dist/
-/proc_notify/build/
-/xboxdrv_monitor/build/
+MANIFEST
+__pycache__/
+dist/
+build/
+.vscode/
